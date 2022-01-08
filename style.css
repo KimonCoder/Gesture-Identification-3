@@ -1,0 +1,36 @@
+body{
+    background: #c0d3ff;
+    font-size:30px;  
+    color:white;  
+    }
+    #d1{
+    float:left;
+    margin-left:30px;
+    }
+    #d2{
+    float:right;
+    margin-right:30px;
+    }
+    #webcam-view-title,#snapshot-view-title{
+    background-color:aquamarine;
+    border-radius:25px;
+    }
+    #webcam-view-title{
+    background-color:aquamarine;
+    border-radius:25px;
+    }
+    #p1,#p2{
+    background-color:aquamarine;
+    border-radius:25px;
+    }
+    #webcam,#snapshot{
+    box-shadow:5px 5px 38px black;
+    height:300px;
+    width:310px;
+    }
+    #title{
+    font-size:25px;
+    }
+    .e1{
+    font-size:30px;
+    }

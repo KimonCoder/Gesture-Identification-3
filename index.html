@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>Gesture Identification App</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+   <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+<center>
+<h1 id="title" class="btn btn-warning">
+Gesture Web App
+<br>
+<span >&#128076;</span>
+<span >&#128077;</span>
+<span >&#9996;</span>
+<span >&#9994;</span>
+<span >&#128079;</span>
+<span>&#129311;</span>
+</h1>
+<br>
+<br>
+Take a selfie of a gesture to know about it's meaning</h3>
+<h3>On the following gestures the model is trained -
+<br>
+<br>
+<span class="e1">&#128076;</span> | 
+<span class="e1">&#128077;</span> |
+<span class="e1">&#9996;</span>
+<br>
+<br>
+</center>
+<div id="d1">
+<center>
+<label id="webcam-view-title" >Webcam View:-</label>
+<div id="webcam"></div>
+<br>
+<button onclick = "takesnapshot()" class="btn btn-warning">Capture Image</button>
+</center>
+</div>
+<div id="d2">
+    <center>
+    <label id="snapshot-view-title" >Snapshot View:-</label>
+    <div id="snapshot"></div>
+    <br>
+   <button onclick="check()"class="btn btn-success">Predict Emotion</button>
+   </center>
+    </div>
+<center>
+<label id="p1">Prediction 1 :-</label>
+<br>
+<label id="prediction1_nam"></label>
+<br>
+<label id="prediction1_emo"></label>
+<br>
+</center>
+<script src="main.js"></script>
+</body>
+</html>
